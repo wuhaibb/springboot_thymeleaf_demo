@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index3</title>
+</head>
+<body>
+<span th:text="${massage}"></span>
+<br>
+<input type="text" th:value="${name}">
+<!--拼接字符串-->
+<span th:text="|欢迎${username}来到LOl|"></span>
+</body>
+</html>
